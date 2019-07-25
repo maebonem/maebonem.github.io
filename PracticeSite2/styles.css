@@ -1,0 +1,169 @@
+html {
+	margin: 0;
+	padding: 0;
+	background-color: #6A9657;
+	 
+}
+
+body {
+	width: 70%;
+	margin: 0 auto;
+	font: 100% Arial; 
+	padding: 1em 50px;
+	background: #D9AE79;
+	margin-bottom: 200px;
+}
+
+nav {
+		width: 100%;
+		margin: auto;
+		background-color: #F2DCC2;
+		padding: 1em;
+		padding-bottom: .15em;
+		padding-top: .25em;
+		margin-bottom: 1em;
+		margin-top: 1em;
+}
+
+nav li {
+	display: inline;
+	background: #F2DCC2;
+	padding: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+img {
+	display: inline-block;
+	border:3px solid;
+	border-color: #543244;
+	padding: 3px;
+
+}
+
+fig > img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3em;
+	width: 12%;
+	padding: .5em;
+}
+
+figcaption {
+	display: block;
+	text-align: center;
+	font-size: .75em;
+	font-weight: bold;
+	color: #543244;
+	margin-top: .5em;
+	margin-bottom: 2em;
+}
+
+h1, h2, h3, h4 {
+	font-family: Garamond, serif;
+	color: #543244;
+}
+
+nav h2 {
+	font-family: Garamond, serif;
+	font-size: 2em;
+	font-weight: bold;
+	font-style: normal;
+	margin-top: .5em;
+	line-height: 1em;
+	margin-bottom: 0;
+	text-align: left;
+	padding-bottom: 0;
+	}
+
+h1 {
+	display: inline-block;
+	width: 60%;
+	font-size: 3em;
+	vertical-align: bottom;
+	padding-left: 10px;
+	line-height: 1em;
+}
+	
+h2 {
+	font-size:2em;
+	font-weight: bolder;
+	font-style: normal;
+	line-height: 1.5em;
+	margin-top: 1.5em;
+	text-align: center;
+		color: #32592C;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-weight: bold;
+	font-style: normal;
+	background-color: #F2DCC2;
+	width: 88%;
+	padding: 1em;
+}
+
+h4 {
+	font-size: 1.25em;
+	font-style: normal;
+	font-weight: bold;
+	line-height: .5em;
+	margin-top: 3px;
+	margin-bottom: 0px;
+}	
+
+section {
+	background-color: #F2DCC2;
+	width: 90%;
+	margin-bottom: 3em;
+	padding: 1em;
+}
+
+
+
+p {
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+	line-height: 1.25em;
+	color: black;
+}
+
+aside {
+	display: inline-block;
+	background: #32592C;
+	width: 105%;
+	margin: auto;
+	padding: 1em 50px;
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+	font-style: italic;
+	line-height: 1.25em;
+	color: #F2DCC2;
+}
+
+a:link {
+	color: #A4A382;
+	font-size:1.25 em;
+	font-weight: normal;
+	font-style: normal;
+	color: #73020C;
+	line-height: 1em;
+}
+
+a:visited {
+	font-family: Arial,sans-serif;
+	font-size: 1 em;
+	font-weight: normal;
+	font-style: normal;
+	color: #73020C;
+}
+
+footer {
+	line-height: .25em;
+	padding-top: 5em;
+	font-size: .75em;
+}
