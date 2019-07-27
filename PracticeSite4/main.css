@@ -1,1 +1,228 @@
 /* Please insert all your CSS code into this document */
+
+h1, footer {
+	width: 100%;
+	height: 40px;
+	z-index: 1;
+}
+
+div, figure {
+	margin: 0;
+}
+
+body {
+	margin-top: 100px;
+	margin-bottom: 100px; 
+	font-family: 'Roboto', sans-serif;
+}
+
+img {
+	width: 300px;
+	margin: 0;
+}
+
+
+h1 {
+	position: fixed;
+	top: 0;
+	padding: 20px;
+	margin-top: 0;
+	background:
+	radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent),
+	radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent) 50px 50px,
+	linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px,
+	linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0;
+	background-color: slategray;
+	background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
+	font-family: 'Teko', sans-serif;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	margin-bottom: 0;
+	padding-bottom: 50px;
+	background:
+	radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent),
+	radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent) 50px 50px,
+	linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px,
+	linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0;
+	background-color: slategray;
+	background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
+}
+
+/* Total column width 320 */
+
+#wrapper {
+	position: relative;
+	left: 20px;
+}
+
+.pageonenav {
+	position: absolute;
+	left: 0px;
+	width: 200px;
+}
+
+.pageonecont {
+	position: absolute;
+	left: 200px;
+	width: 640px;
+}
+
+#article1 {
+	position: absolute;
+	top: 0;
+	height: 600px;
+	overflow: auto;
+	width: 820px;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+#article2 {
+	position: absolute;
+	top: 640px;
+	height: 600px;
+	overflow: auto;
+	width: 820px;
+	padding: 20px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+#img1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#img1txt {
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 340px;
+}
+
+#img2 {
+	margin: 0;
+	position: absolute;
+	top: 150px;
+	left: 0px;
+}
+
+#img2txt {
+	margin: 0;
+	position: absolute;
+	top: 130px;
+	left: 340px;
+}
+
+#img3 {
+	position: absolute;
+	top: 500px;
+	left: 0px;
+}
+
+#img3txt {
+	margin: 0;
+	position: absolute;
+	top: 480px;
+	left: 340px;
+}
+
+#img4 {
+	margin: 0;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#img4txt {
+	position: absolute;
+	top: 0;
+	left: 340px;
+}
+
+#img4txt2 {
+	position: absolute;
+	top: 50px;
+	left: 340px;
+}
+
+.pagetwo aside {
+	float: left;
+	padding: 20px;
+	width: 200px;
+	height: 1000px;
+}
+
+.pagetwo article {
+	margin-top: 0;
+	float: left;
+	width: 650px;
+	margin-right: 10px;
+}
+
+.pagetwo figure {
+	float: left;
+	margin-right: 20px;	
+}
+
+.pagetwo section figure:first-of-type {
+	clear: left;
+}
+
+
+.pagethree aside {
+	float: left;
+	width: 25%;
+}
+
+.pagethree article {
+	margin-left: 25%;
+	margin-right: 5%;
+}
+
+.pagethree article figure {
+	float: left;
+	padding: 2%;
+}
+
+.pagethree section figure:first-of-type {
+	clear: left;
+}
+
+.pagefour aside {
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+}
+
+.pagefourcolumn {
+	display: inline-block;
+	vertical-align: top;
+	width: 65%;
+}
+
+.pagefive figure {
+	display: inline-block;
+	width: 300px;
+	height: 220px;
+	margin: 1em;
+	padding: 1em;
+	object-fit: cover;
+}
+
+.pagefive img {
+	box-shadow: 10px 10px rgb(156, 153, 152, .4);
+}
+
+.pagefive figcaption {
+	text-align: center;
+	margin-top: 10px;
+}
+
+header {
+	margin: 0 auto;
+}
+

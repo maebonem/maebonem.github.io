@@ -39,7 +39,6 @@ h2 {
 	font-size: 20px;	
 	color: #fafafa;
 	font-size: 1em;
-	text-align: center;
 	background: none;
 }
 
@@ -82,13 +81,11 @@ li a:active {
 
 
 .sidenav {
-  height: 100%; 
-  width: 220px;
-  float: left;
-  background-color: #007065;
-  overflow-x: hidden; 
+  position: fixed;
+  top: 0;
   padding: 20 px;
   margin-left: 10px;
+  
 }
 
 /*
