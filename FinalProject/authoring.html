@@ -16,16 +16,23 @@
 			<ul class="siteNav">
 			<li><a href="index.html">Home</a></li>
 			<li><a href="authoring.html">Accessible Authoring in Word</a></li>
+			<li><a href="resources.html">Additional Resources</a></li>
+			</ul>			
 			</ul>
 		</div>
 		<div id="pageNav">
 			<h2>On This Page</h2>
 			<ul>
-			<li><a href="#1">File Name</a></li>
-			<li><a href="#2">File Type</a></li>
-			<li><a href="#3">Document Organization</a></li>
-			<li><a href="#4">Text Wrap</a></li>
-			<li><a href="#5">Alt Text</a></li>
+			<li><a title="File Name" href="#bx1">File Name</a></li>
+			<li><a title="File Type" href="#bx2">File Type</a></li>
+			<li><a title="Document Organization" href="#bx3">Document Organization</a></li>
+			<li><a title="Text Wrap" href="#bx4">Text Wrap</a></li>
+			<li><a title="Alt Text" href="#bx5">Alt Text</a></li>
+			<li><a title="Tables, Columns, and Lists" href="#bx6">Tables, Columns, and Lists</a></li>
+			<li><a title="Text-Wrapping Tables" href="#bx7">Text-Wrapping Tables</a></li>
+			<li><a title="Table Reading Order" href="#bx8">Table Reading Order</a></li>
+			<li><a title="Identify Table Headers" href="#bx9">Table Headers</a></li>
+			<li><a title="Merged Cells" href="#bx10">Merged Cells</a></li>
 			</ul>
 		</div>
 	</nav>
@@ -42,9 +49,9 @@
 		
 		<h2>Requirements</h2>
 		
-		<div class="wrap-collabsible"  id="1">
+		<div class="wrap-collabsible"  id="bx1">
 			<input id="fileNameCollapse" class="toggle" type="checkbox">
-			<label for="fileNameCollapse" class="lbl-toggle">File name</label>
+			<label for="fileNameCollapse" class="lbl-toggle">File Name</label>
 			<div class="collapsible-content">
 				<div class="content-inner">
 					<p><b>Give your document a clear, descriptive name.</b></p>
@@ -58,7 +65,7 @@
 		</div>
 		<br>
 
-		<div class="wrap-collabsible" id="2">
+		<div class="wrap-collabsible" id="bx2">
 			<input id="docxCollapse" class="toggle" type="checkbox">
 			<label for="docxCollapse" class="lbl-toggle">File Type</label>
 			<div class="collapsible-content">
@@ -72,7 +79,7 @@
 		<br>
 		
 
-		<div class="wrap-collabsible" id="3">
+		<div class="wrap-collabsible" id="bx3">
 			<input id="stylesCollapse" class="toggle" type="checkbox">
 			<label for="stylesCollapse" class="lbl-toggle">Document Organization</label>
 			<div class="collapsible-content">
@@ -86,9 +93,9 @@
 			</div>
 		</div>
 <br>
-		<div class="wrap-collabsible" id="4">
+		<div class="wrap-collabsible" id="bx4">
 			<input id="ImageCollapse" class="toggle" type="checkbox">
-			<label for="ImageCollapse" class="lbl-toggle">Images and text boxes (text wrap)</label>
+			<label for="ImageCollapse" class="lbl-toggle">Text-Wrap on Images and Text Boxes</label>
 			<div class="collapsible-content">
 				<div class="content-inner">
 				<p><b>Set images and text boxes "in line with text."</b></p>
@@ -99,7 +106,7 @@
 			</div>
 		</div>
 		<br>
-		<div class="wrap-collabsible" id="5">
+		<div class="wrap-collabsible" id="bx5">
 			<input id="alttxtCollapse" class="toggle" type="checkbox">
 			<label for="alttxtCollapse" class="lbl-toggle">Alt Text</label>
 			<div class="collapsible-content">
@@ -111,6 +118,63 @@
 			</div>
 		</div>
 		<br>
+		<div class="wrap-collabsible" id="bx6">
+			<input id="tables_columns" class="toggle" type="checkbox">
+			<label for="tables_columns" class="lbl-toggle">Tables, Columns, and Lists</label>
+			<div class="collapsible-content">
+				<div class="content-inner">
+					<p><b>Use built-in tools for tables, bulleted lists, and columns.</b></p>
+					<p>Don't use workarounds (like tabs or spaces) that merely replicated the "look" of columns, lists, or tables.  </p> 
+					<p>Word contains code to communicate reading order to screen-readers and other assistive technology. Using spacing and tabs makes it difficult for such technology to interpret the correct reading order.</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="wrap-collabsible" id="bx7">
+			<input id="tables_wrapping" class="toggle" type="checkbox">
+			<label for="tables_wrapping" class="lbl-toggle">Text-Wrapping Tables</label>
+			<div class="collapsible-content">
+				<div class="content-inner">
+					<p><b>In a word: Don't.</b></p>
+					<p>Like images, tables must be in line with the text in order to be readable by assistive technology.  To set a table in line, right click the table and select “Table Properties.”  Under “Text Wrapping,” select “None.”    </p> 
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="wrap-collabsible" id="bx8">
+			<input id="tables_order" class="toggle" type="checkbox">
+			<label for="tables_order" class="lbl-toggle">Table Reading Order</label>
+			<div class="collapsible-content">
+				<div class="content-inner">
+					<p><b>Ensure the reading order is correct for table cells.</b></p>
+					<p>Assistive technology will reads a table from left to right and top to bottom, reading all the contents of each cell before moving on to the next.  The cells in a table must be arranged in reading order for assistive technology to interpret the table correctly.</p> 
+				</div>
+			</div>
+		</div>
+		<br>	
+		<div class="wrap-collabsible" id="bx9">
+			<input id="tables_headers" class="toggle" type="checkbox">
+			<label for="tables_headers" class="lbl-toggle">Table Headers</label>
+			<div class="collapsible-content">
+				<div class="content-inner">
+					<p><b>Mark the table's header with "Repeat Header Rows" feature.</b></p>
+					<p>While shading or bolding are enough to indicate header rows to readers who can see them, assistive technologies can’t pick up on these visual cues.  To ensure that a table is accessible, use the “Repeat Header Rows” option to indicate the table headers.  Highlight the header row of your table; the Table Tools tab will be automatically selected on the Ribbon.  The tab contains two sub-tabs, Design and Layout. Click the Layout tab.  Under the Data group, select "Repeat Header Rows."</p> 
+					<p>You can check your table to ensure it is formatted correctly by pressing Shift + F1, the shortcut for “Show Formatting.”  If the Table section contains “Row: Repeat as header row,” the table is formatted correctly.</p>
+				</div>
+			</div>
+		</div>
+				<br>	
+		<div class="wrap-collabsible" id="bx10">
+			<input id="tables_merged" class="toggle" type="checkbox">
+			<label for="tables_merged" class="lbl-toggle">Merged Cells</label>
+			<div class="collapsible-content">
+				<div class="content-inner">
+					<p><b>Don't use merged cells or multi-level headers.</b></p>
+					<p>Tables that make use of multi-level headings and merged cells are too complex to be made accessible in Word.  While they can be made accessible, more sophisticated software is required.  </p>
+				</div>
+			</div>
+		</div>
+		<br>		
 		</section>
 		
 	
