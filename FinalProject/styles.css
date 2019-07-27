@@ -163,7 +163,7 @@ input[type='checkbox'] {
   padding: .5rem;
 
   color: black;
-  background: rgb(56, 140, 71);
+  background: rgb(56, 140, 71, .8);
   width: 94%;
   height: 15px;
  
@@ -198,7 +198,30 @@ input[type='checkbox'] {
   width: 94%;
 }
 
+.content-inner figure {
+	margin-left: 0;
+	display: block;
+	float: left;
+	background-color: rgb(163, 227, 169, .7);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+}
 
+figcaption {
+	display: block;
+	padding: 0;
+	line-height: .5em;
+	margin: 0;
+}
+
+.content-inner img ~ p {
+	float:right;
+}
+
+.clear {
+  clear: both;
+}
+}
 .lbl-toggle:hover {
   color: white;
 }
@@ -211,7 +234,7 @@ input[type='checkbox'] {
 }
 
 .toggle:checked + .lbl-toggle + .collapsible-content {
-  max-height: 500px;
+  max-height: 900px;
 }
 
 .toggle:checked + .lbl-toggle::before {
